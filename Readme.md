@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Быховой](https://up.htmlacademy.ru/htmlcss/26/user/1002017).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Лесухин](https://htmlacademy.ru/profile/caneklis).
 
 ---
 
