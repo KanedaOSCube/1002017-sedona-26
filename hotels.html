@@ -8,7 +8,7 @@
 
 <body>
     <header>
-        <a href="index.html">
+        <a class="logo-sedona" href="index.html">
             <img src="img/svg/logo-sedona.svg" alt="Логотип Седона" width="138" height="70">
         </a>
         <nav>
@@ -37,60 +37,99 @@
         </nav>
     </header>
     <main>
-        <h1>Седона</h1>
+        <h1 class="visually-hidden">Седона гостиницы</h1>
         <section>
-            <h2>Фильтры</h2>
-            <h4>Инфраструктура:</h4>
-            <ul>
-                <li>
-                    <span>Бассейн</span>
-                </li>
-                <li>
-                    <span>Парковка</span>
-                </li>
-                <li>
-                    <span> Wi-Fi</span>
-                </li>
-            </ul>
-            <h4>Тип жилья:</h4>
-            <ul>
-                <li>
-                    <span>Гостиница</span>
-                </li>
-                <li>
-                    <span>Мотель</span>
-                </li>
-                <li>
-                    <span>Апартаменты</span>
-                </li>
-            </ul>
-            <h4>Стоимость в сутки (Р):</h4>
-            <!-- <p>
-                <span>
-                    от 0 До 3000 <br>
+            <h2 class="visually-hidden">Фильтры</h2>
+            <form action="https://echo.htmlacademy.ru" method="GET">
+                <fieldset class="">
+                    <legend>Инфраструктура:</legend>
+                    <ul>
+                        <li class="filter-item">
+                            <input class="" type="checkbox" id="pool" name="pool" checked>
+                            <label for="pool">
+                                Бассейн
+                            </label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="" type="checkbox" id="parking" name="parking">
+                            <label for="parking">
+                                Парковка
+                            </label>
+                        </li>
+                        <li class="filter-item">
+                            <input class="" type="checkbox" id="wi-fi" name="wi-fi">
+                            <label for="wi-fi">
+                                Wi-Fi
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="">
+                    <legend>Тип жилья:</legend>
+                    <ul>
+                        <li class="filter-item">
+                            <input type="checkbox" id="hostel" name="hostel" checked>
+                            <label for="hostel">
+                                Гостиница
+                            </label>
+                        </li>
+                        <li class="filter-item">
+                            <input type="checkbox" id="motel" name="motel" checked>
+                            <label for="motel">
+                                Мотель
+                            </label>
+                        </li>
+                        <li class="filter-item">
+                            <input type="checkbox" id="Apartments" name="Apartments" checked>
+                            <label for="Apartments">
+                                Апартаменты
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="">
+                    <legend>Стоимость в сутки (Р):</legend>
+                    <p>
+                        <span>от 0</span>
+                        <span>До 3000</span>
+                    </p>
+                    <input class="cost-item" type="range" name="range-cost">
+                    <!-- Двойной ползунок -->
+                </fieldset>
+                <button class="show-filter-button" type="submit">
                     Показать
-                </span>
-            </p> -->
+                </button>
+            </form>
         </section>
         <section>
-            <h2>Список гостиниц</h2>
-            <h3>Сортировка</h3>
+            <h2 class="visually-hidden">Список гостиниц</h2>
+            <h3 class="visually-hidden">Сортировка</h3>
             <div>
-                <h4>НАЙДЕНО: 3</h4>
+                <h4>НАЙДЕНО: <span class="count-found-items">3</span></h4>
                 Сортировка:
                 <ul>
                     <li>
-                        По цене
+                        <button class="button-sort" type="button" name="sort-cost">
+                            По цене
+                        </button>
                     </li>
                     <li>
-                        По типу
+                        <button class="button-sort" type="button" name="sort-type">
+                            По типу
+                        </button>
                     </li>
                     <li>
-                        По рейтингу
+                        <button class="button-sort" type="button" name="sort-rang">
+                            По рейтингу
+                        </button>
                     </li>
                 </ul>
+                <p>
+                    <button class="sort-descending" type="button">сортировка по убыванию</button>
+                    <button class="sort-ascending" type="button">сортировка по возрастанию</button>
+                </p>
             </div>
-            <h3>Список найденных</h3>
+            <h3 class="visually-hidden">Список найденных</h3>
             <ul>
                 <li>
                     <p>
@@ -142,9 +181,7 @@
                 </li>
                 <li>
                     <p>
-
                         <img src="img/jpg-png/villas.jpg" alt="Villas at Poco Diablo" width="135" height="90">
-
                     </p>
                     <h4>
                         <a href="#">
@@ -182,9 +219,9 @@
                 </li>
             </ul>
         </div>
-        <p>
+        <p class="html-item">
             Website by
-            <a href="https://htmlacademy.ru/">
+            <a class="logo-htmlacademy" href="https://htmlacademy.ru/">
                 <img src="img/svg/logo-htmlacademy.svg" alt="Логотип HTMLAcademy" width="115" height="41">
             </a>
         </p>

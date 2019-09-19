@@ -8,7 +8,7 @@
 
 <body>
     <header>
-        <a>
+        <a class="logo-sedona">
             <img src="img/svg/logo-sedona.svg" alt="Логотип Седона" width="138" height="70">
         </a>
         <nav>
@@ -37,7 +37,7 @@
         </nav>
     </header>
     <main>
-        <h1>Седона</h1>
+        <h1 class="visually-hidden">Седона</h1>
         <section>
             <ul>
                 <li>
@@ -97,13 +97,48 @@
             </ul>
         </section>
         <section>
-            <h3>ПОИСК ГОСТИНИЦЫ В седоне</h3>
-            <!-- Форма появится в будующем -->
-            <img src="img/jpg-png/map.png" alt="Карта" width="1202" height="597">
+            <h3 class="visually-hidden">ПОИСК ГОСТИНИЦЫ В седоне</h3>
+            <form class="search-hostel" action="https://echo.htmlacademy.ru" method="POST">
+                <button class="search-hostel-sedona-button" type="button">
+                    ПОИСК ГОСТИНИЦЫ В седоне
+                </button>
+                <p class="date-item">
+                    <label for="date-arrival">
+                        Дата заезда:
+                    </label>
+                    <input class="date-in" type="text" id="date-arrival" name="date-arrival" placeholder="24 апреля 2017">
+                </p>
+                <p class="date-item">
+                    <label for="date-leave">
+                        Дата выезда:
+                    </label>
+                    <input class="date-in" type="text" id="date-leave" name="date-leave" placeholder="4 июля 2017">
+                </p>
+                <p class="parent-item">
+                    <label for="parent">
+                        Взрослые:
+                    </label>
+                    <button type="button" class="button-parent-sub">-</button>
+                    <input class="parent-in" type="text" id="parent" name="parent-input" placeholder="2">
+                    <button type="button" class="button-parent-add">+</button>
+                </p>
+                <p class="child-item">
+                    <label for="child">
+                        Дети:
+                    </label>
+                    <button type="button" class="button-child-sub">-</button>
+                    <input class="child-in" type="text" id="child" name="child-input" placeholder="0">
+                    <button type="button" class="button-child-add">+</button>
+                </p>
+                <button class="search-button" type="submit">
+                    Найти
+                </button>
+            </form>
+            <img class="map-hostel" src="img/jpg-png/map.png" alt="Карта гостиниц" width="1202" height="597">
         </section>
     </main>
     <footer>
-        <p>#visitSEDONA</p>
+        <p class="visit-sedona">#visitSEDONA</p>
         <div>
             <ul>
                 <li>
@@ -117,9 +152,9 @@
                 </li>
             </ul>
         </div>
-        <p>
+        <p class="html-item">
             Website by
-            <a href="https://htmlacademy.ru/">
+            <a class="logo-htmlacademy" href="https://htmlacademy.ru/">
                 <img src="img/svg/logo-htmlacademy.svg" alt="Логотип HTMLAcademy" width="115" height="41">
             </a>
         </p>
