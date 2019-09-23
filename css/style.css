@@ -1,0 +1,511 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    /* color: #000000; */
+}
+
+img {
+    max-width: 100%
+}
+
+li {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+:focus {
+    /* outline: 0px; */
+    outline: #e5e5e5 solid 2px;
+}
+
+
+/* header */
+
+.main-nav {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.nav-list {
+    text-align: center;
+}
+
+.nav-list-item a {
+    color: #000000;
+}
+
+.nav-list-item a:hover,
+.nav-list-item a:focus {
+    color: #81b3d2;
+}
+
+.nav-list-item a:disabled {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* main */
+
+
+/* index */
+
+.main-content {}
+
+.content-cause {}
+
+.cause-info {
+    text-align: center;
+    line-height: 26px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.cause-info h2 {
+    font-size: 21px;
+}
+
+.cause-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.list-advantage {}
+
+.list-advantage h3 {
+    font-size: 21px;
+}
+
+.list-advantage span,
+.list-advantage p {
+    font-weight: 400;
+}
+
+.list-item {
+    text-align: center;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.list-item .img-city {
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.list-item .img-canyon {
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.item-advantage {
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.content-search-hostel {}
+
+.search-hostel-preview {
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.search-hostel-preview h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.search-hostel-preview p {
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.button {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    border-style: none;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    background-color: #81b3d2;
+    text-transform: uppercase;
+}
+
+.preview-button {
+    font-size: 21px;
+    line-height: 26px;
+    background-color: #766357;
+}
+
+.preview-button:focus,
+.preview-button:hover {
+    background-color: #604e43;
+}
+
+.preview-button:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.search-hostel {
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #000000;
+    box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
+}
+
+.search-hostel-item {
+    text-align: left;
+}
+
+.search-hostel-item input[type="text"] {
+    border: solid 2px #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.search-hostel-item input[type="text"]:hover {
+    border: solid 2px #ebebeb;
+    background-color: #ebebeb;
+}
+
+.search-hostel-item input[type="text"]:focus {
+    border: solid 2px #e5e5e5;
+    background-color: #ffffff;
+}
+
+.button-counter {
+    background-color: #f2f2f2;
+    color: #a9a9a9;
+}
+
+.button-counter:hover,
+.button-counter:focus {
+    background-color: #ebebeb;
+    color: #000000;
+}
+
+.button-counter:active {
+    color: #81b3d2;
+}
+
+.search-button {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.search-button:focus,
+.search-button:hover {
+    background-color: #669ec0;
+}
+
+.search-button:active {
+    Background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.content-map {}
+
+.map-hostel {}
+
+
+/* hostel */
+
+.content-filter {
+    background-color: #471347;
+    background-image: url("../img/jpg-png/hotels-filter.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.filter {}
+
+.filter legend {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filter input[type="checkbox"] {}
+
+.filter-list {
+    list-style: none;
+}
+
+.filter-item {}
+
+.filter-type {}
+
+.filter-cost {}
+
+.filter-cost p {
+    border: solid 2px #ffffff;
+}
+
+.filter-cost span {
+    text-align: center;
+}
+
+.cost-item {}
+
+.show-filter-button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: transparent;
+    border: solid 2px #ffffff;
+}
+
+.show-filter-button:focus,
+.show-filter-button:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.content-found {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.found-sort {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.found-sort h4 {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.found-sort .sort {
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.sort-item {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.button-sort {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.button-sort:disabled {
+    border: none;
+    color: #81b3d2;
+}
+
+.button-sort:not(:disabled):hover,
+.button-sort:not(:disabled):focus {
+    border-bottom: 1px dotted #81b3d2;
+    color: #81b3d2;
+}
+
+.button-sort:not(:disabled):active {
+    border: none;
+    color: #000000;
+}
+
+.count-found-items {}
+
+.sort-list-button {}
+
+.sort-item {}
+
+.button-sort {}
+
+.sort-descending {
+    border: none;
+    background: none;
+    color: #cacaca;
+    /* background-color: #cacaca; */
+}
+
+.sort-ascending {
+    border: none;
+    background: none;
+    color: #cacaca;
+    /* background-color: #cacaca; */
+}
+
+.sort-ascending:not(:disabled):focus,
+.sort-descending:not(:disabled):focus,
+.sort-ascending:not(:disabled):hover,
+.sort-descending:not(:disabled):hover {
+    color: #000000;
+}
+
+.sort-ascending:not(:disabled):active,
+.sort-descending:not(:disabled):active {
+    color: #81b3d2;
+}
+
+.sort-ascending:disabled,
+.sort-descending:disabled {
+    color: #81b3d2;
+}
+
+.content-found-list {}
+
+.found-list-item {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.item-name {
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.item-name:hover,
+.item-name:focus {
+    color: #81b3d2;
+}
+
+.item-name:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.found-list-item span {
+    color: #333333
+}
+
+.found-list-item div:last-child {
+    text-align: right;
+}
+
+.found-list-item .rank {
+    background-color: #f2f2f2;
+    color: #666666;
+    padding: 2px;
+}
+
+.found-list-item .star-item {
+    /* background-image: url("../img/svg/star.svg"); */
+    /* background-color: #000000; */
+}
+
+.button-more {
+    background-color: #81b3d2;
+}
+
+.button-booked {
+    background-color: #766357;
+}
+
+.button-more:hover,
+.button-more:focus {
+    background-color: #669ec0;
+}
+
+.button-more:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.button-booked:focus,
+.button-booked:hover {
+    background-color: #604e43;
+}
+
+.button-booked:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* footer */
+
+.main-footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    line-height: 26px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.footer-tag {
+    font-size: 21px;
+    text-align: center;
+}
+
+.footer-list {}
+
+.list-social {}
+
+.list-social-item {
+    background-color: #81b3d2;
+}
+
+.list-social-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.list-social-item a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.list-social-item:hover,
+.list-social-item:focus {
+    background-color: #669ec0;
+}
+
+.list-social-item:active {
+    background-color: #5496bd;
+}
+
+.footer-by {
+    font-weight: normal;
+    text-align: center;
+}
+
+.logo-htmlacademy img {
+    text-decoration: none;
+}
