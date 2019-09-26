@@ -9,11 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="main-body">
     <header class="main-header">
-        <a class="header-logo">
-            <img src="img/svg/logo-sedona.svg" alt="Логотип Седона" width="138" height="70">
-        </a>
         <nav class="main-nav">
             <ul class="nav-list">
                 <li class="nav-list-item">
@@ -24,6 +21,11 @@
                 <li class="nav-list-item">
                     <a href="#" class="link">
                         Фото и видео
+                    </a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="header-logo">
+                        <img src="img/svg/logo-sedona.svg" alt="Логотип Седона" width="138" height="70">
                     </a>
                 </li>
                 <li class="nav-list-item">
@@ -43,9 +45,18 @@
         <h1 class="visually-hidden">Седона</h1>
         <section class="content-cause">
             <div class="cause-info">
-                <h2 class="text-info">Седона — небольшой городок в Аризоне, заслуживающий большего</h2>
-                <p class="text-info">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+                <div class="preview-logo"></div>
+                <div class="cause-info-text">
+                    <h2 class="text-info">Седона — небольшой городок в Аризоне, заслуживающий большего</h2>
+                    <p class="text-info">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+                </div>
             </div>
+            <!-- <div class="cause-info">
+                <div class="cause-info-text">
+                    <h2 class="text-info">Седона — небольшой городок в Аризоне, заслуживающий большего</h2>
+                    <p class="text-info">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+                </div>
+            </div> -->
             <ul class="list-advantage">
                 <li class="list-item">
                     <div class="item-advantage">
@@ -80,29 +91,39 @@
                     </div>
                 </li>
                 <li class="list-item">
-                    <h3>Небольшая площадь</h3>
-                    <span>
-                        —№3 —
-                    </span>
-                    <p>Все достопримечательности находятся</p>
+                    <div class="item-advantage">
+                        <h3>Небольшая площадь</h3>
+                        <span>
+                                —№3 —
+                            </span>
+                        <p>Все достопримечательности находятся очень близко</p>
+                    </div>
+
                 </li>
                 <li class="list-item">
-                    <h3>Красивая дорога</h3>
-                    <span>
-                        — №4 —
-                    </span>
-                    <p>Ехать в Седону из Лас-Вегаса совсем не</p>
+                    <div class="item-advantage">
+                        <h3>Красивая дорога</h3>
+                        <span>
+                                — №4 —
+                            </span>
+                        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                    </div>
+
                 </li>
                 <li class="list-item">
-                    <h3>Мало туристов</h3>
-                    <span>
-                        — №5 —
-                    </span>
-                    <p>Большинство едет в гранд каньон и толпи</p>
+                    <div class="item-advantage">
+                        <h3>Мало туристов</h3>
+                        <span>
+                                — №5 —
+                            </span>
+                        <p>Большинство едет в гранд каньон и толпится там</p>
+                    </div>
+
                 </li>
             </ul>
         </section>
         <section class="content-search-hostel">
+            <h2 class="visually-hidden">ПОИСК ГОСТИНИЦЫ В седоне</h2>
             <div class="search-hostel-preview">
                 <h2>Заинтересовались?</h2>
                 <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
@@ -110,7 +131,6 @@
                     ПОИСК ГОСТИНИЦЫ В седоне
                 </button>
             </div>
-            <h3 class="visually-hidden">ПОИСК ГОСТИНИЦЫ В седоне</h3>
             <form class="search-hostel" action="https://echo.htmlacademy.ru" method="POST">
                 <div class="search-hostel-item">
                     <label for="date-arrival">
@@ -152,19 +172,17 @@
     </main>
     <footer class="main-footer">
         <p class="footer-tag">#visitSEDONA</p>
-        <div class="footer-list">
-            <ul class="list-social">
-                <li class="list-social-item">
-                    <a href="#">Твиттер</a>
-                </li>
-                <li class="list-social-item">
-                    <a href="#">Фейсбук</a>
-                </li>
-                <li class="list-social-item">
-                    <a href="#">Ютуб</a>
-                </li>
-            </ul>
-        </div>
+        <ul class="list-social">
+            <li class="list-social-item">
+                <a href="#">Твиттер</a>
+            </li>
+            <li class="list-social-item">
+                <a href="#">Фейсбук</a>
+            </li>
+            <li class="list-social-item">
+                <a href="#">Ютуб</a>
+            </li>
+        </ul>
         <p class="footer-by">
             Website by
             <a href="https://htmlacademy.ru/">
