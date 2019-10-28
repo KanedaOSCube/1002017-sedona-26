@@ -249,12 +249,16 @@ input[type="radio"].visually-hidden {
 .list-item:nth-child(5) p {
   margin: 0;
   padding-top: 21px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .list-item:nth-child(1) h3,
 .list-item:nth-child(5) h3 {
   margin: 0;
   padding-bottom: 24px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .list-item:nth-child(2),
@@ -303,14 +307,15 @@ input[type="radio"].visually-hidden {
   margin-top: 0px;
   margin: 0;
   padding-bottom: 24px;
+  padding-right: 130px;
+  padding-left: 130px;
 }
 
 .item-advantage-w p {
   margin: 0;
   padding-top: 21px;
-}
-
-.item-advantage p {
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 .list-advantage span,
