@@ -1373,13 +1373,26 @@ input[type="radio"].visually-hidden {
   background-color: transparent;
 }
 
-.calendar svg:hover #calen,
-.calendar svg:focus #calen {
+.calendar svg:hover #calendar-top-t,
+.calendar svg:focus #calendar-top-t,
+.calendar svg:hover #calendar-bottom,
+.calendar svg:focus #calendar-bottom,
+.calendar svg:hover #calendar-top,
+.calendar svg:focus #calendar-top,
+.calendar svg:hover #calendar-bottom-t,
+.calendar svg:focus #calendar-bottom-t {
   fill: #000000;
 }
 
-.calendar svg:active #calen {
+.calendar svg:active #calendar-top-t,
+.calendar svg:active #calendar-bottom,
+.calendar svg:active #calendar-top,
+.calendar svg:active #calendar-bottom-t  {
   fill: #81b3d2;
+}
+
+iframe{
+  border: none;
 }
 
 .button-counter {
