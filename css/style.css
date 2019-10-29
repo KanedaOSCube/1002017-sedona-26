@@ -31,10 +31,6 @@ img {
   max-width: 100%;
 }
 
-li {
-  list-style: none;
-}
-
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -1172,6 +1168,7 @@ input[type="radio"].visually-hidden {
 }
 
 .star-item {
+  list-style: none;
   margin-left: 6px;
 }
 
@@ -1503,6 +1500,7 @@ iframe{
 }
 
 .sort-item {
+  list-style: none;
   font-size: 12px;
   line-height: 18px;
 }
